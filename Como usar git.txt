@@ -1,0 +1,20 @@
+git init -> criar um arquivo .git na pasta escolhida
+git status -> vê o status do seu git
+git add . -> adiciona(commita) todos arquivos
+git add "(nome do arquivo a ser adicionado(commita))"
+git commit -m "(mensagem de commite)" - > envia uma versão para seu git hub com uma mensagem
+inicial = git config --global user.email "(email do seu git)"
+inicial = git config --global user.name "(nome do seu git)"
+git remote add origin (cola o link do repositorio ja criado)
+CASO DÊ ERRO AO USAR O 'GIT PUSH' = git remote set-url origin (cola o link do repositorio ja criado)
+git push --set-upstream origin master
+
+PARA COLOCAR NOVAS VERSÃO DO ARQUIVO:
+git status -> e vê se o arquivo não foi comitado
+git add .  -> add ele
+git status - > ver se o arquivo foi comitado de boa
+git commit - m "(nova mensagem de commite para a versão att)"
+git push
+git reflog  - > vê todas as versões do arquivo
+git reset --hard - > volta para a versão selecionada
+
